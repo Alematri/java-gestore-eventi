@@ -3,10 +3,10 @@ package org.gestoreeventi;
 import java.time.LocalDate;
 
 public class Evento {
-    private String titolo;
-    private LocalDate data;
-    private int numeroPostiTotali;
-    private int numeroPostiPrenotati;
+    protected String titolo;
+    protected LocalDate data;
+    protected int numeroPostiTotali;
+    protected int numeroPostiPrenotati;
 
     // ** COSTRUTTORE **
     public Evento(String titolo, LocalDate data, int numeroPostiTotali) throws IllegalArgumentException {
