@@ -43,7 +43,6 @@ MILESTONE 1
 3- Implementare il costruttore della classe per inizializzare questi campi dati.
 4- Aggiungere controlli nel costruttore per verificare la validità della data e del numero di posti totali.
 5- Implementare i metodi getter e setter per consentire l'accesso ai campi dati.
-
 6- Implementazione del metodo prenota, che aggiunge un certo numero di posti prenotati e solleva un'eccezione se l'evento è già passato o non ci sono abbastanza posti disponibili.
 7- Implementazione del metodo disdici, che riduce di un certo numero i posti prenotati e solleva un'eccezione se l'evento è già passato o non ci sono abbastanza prenotazioni.
 8- Override del metodo toString in modo che restituisca una stringa contenente la data formattata e il titolo dell'evento.

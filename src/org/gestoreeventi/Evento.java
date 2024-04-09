@@ -52,7 +52,15 @@ public class Evento {
         this.data = data;
     }
 
-    // TODO setter per numeroPostiTotali e numeroPostiPrenotati Poiché questi valori devono essere stabiliti solo nel costruttore o tramite i metodi specifici
+    // Setter per il numero di posti totali
+    public void setNumeroPostiTotali(int numeroPostiTotali) {
+        this.numeroPostiTotali = numeroPostiTotali;
+    }
+
+    // Setter per il numero di posti prenotati
+    public void setNumeroPostiPrenotati(int numeroPostiPrenotati) {
+        this.numeroPostiPrenotati = numeroPostiPrenotati;
+    }
 
     public void prenota(int numeroPostiDaPrenotare) throws Exception {
         // Verifica se l'evento è già passato
@@ -68,5 +76,25 @@ public class Evento {
 
         // Aggiorna il numero di posti prenotati
         numeroPostiPrenotati += numeroPostiDaPrenotare;
+    }
+
+    public void disdici(int numeroPostiDaCancellare) throws Exception {
+        // Verifica se l'evento è già passato
+        if (data.isBefore(LocalDate.now())) {
+            throw new Exception("Impossibile disdire: l'evento è già passato.");
+        }
+
+        // Verifica se ci sono abbastanza prenotazioni da cancellare
+        if (numeroPostiDaCancellare > numeroPostiPrenotati) {
+            throw new Exception("Impossibile disdire: non ci sono abbastanza prenotazioni da cancellare.");
+        }
+
+        // Aggiorna il numero di posti prenotati
+        numeroPostiPrenotati -= numeroPostiDaCancellare;
+    }
+
+    @Override
+    public String toString() {
+        return data.toString() + " - " + titolo;
     }
 }
