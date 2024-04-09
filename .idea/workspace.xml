@@ -4,7 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="2395746b-01ee-45aa-9b19-04dd0565b737" name="Changes" comment="MILESTONE 1">
+    <list default="true" id="2395746b-01ee-45aa-9b19-04dd0565b737" name="Changes" comment="MILESTONE 3">
+      <change afterPath="$PROJECT_DIR$/src/org/gestoreeventi/ProgrammaEventi.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/org/gestoreeventi/Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/org/gestoreeventi/Main.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -21,6 +23,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProblemsViewState">
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectColorInfo"><![CDATA[{
   "associatedIndex": 2
@@ -86,20 +91,38 @@
       <option name="project" value="LOCAL" />
       <updated>1712655233003</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="MILESTONE 2">
+      <option name="closed" value="true" />
+      <created>1712655630100</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1712655630100</updated>
+    </task>
+    <task id="LOCAL-00004" summary="MILESTONE 3">
+      <option name="closed" value="true" />
+      <created>1712670195207</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1712670195207</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="MILESTONE 1" />
-    <option name="LAST_COMMIT_MESSAGE" value="MILESTONE 1" />
+    <MESSAGE value="MILESTONE 2" />
+    <MESSAGE value="MILESTONE 3" />
+    <option name="LAST_COMMIT_MESSAGE" value="MILESTONE 3" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/src/org/gestoreeventi/Main.java</url>
-          <line>11</line>
-          <option name="timeStamp" value="1" />
+          <line>7</line>
+          <option name="timeStamp" value="2" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
