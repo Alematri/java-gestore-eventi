@@ -1,6 +1,5 @@
 package org.gestoreeventi;
 
-import java.time.LocalDate;
 import java.util.ArrayList;
 import java.util.List;
 
@@ -17,23 +16,6 @@ public class ProgrammaEventi {
         eventi.add(evento);
     }
 
-    public List<Evento> eventiInData(LocalDate data) {
-        List<Evento> eventiInData = new ArrayList<>();
-        for (Evento evento : eventi) {
-            if (evento.getData().isEqual(data)) {
-                eventiInData.add(evento);
-            }
-        }
-        return eventiInData;
-    }
-
-    public int numeroEventi() {
-        return eventi.size();
-    }
-
-    public void svuotaProgramma() {
-        eventi.clear();
-    }
 
     @Override
     public String toString() {

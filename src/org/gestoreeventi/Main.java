@@ -31,7 +31,7 @@ public class Main {
                 Evento evento = null;
                 try {
                     evento = new Evento(titolo, data, numeroPostiTotali);
-                    programma.aggiungiEvento(evento); // Aggiungi l'evento al programma
+                    programma.aggiungiEvento(evento); // Aggiungi al programma
                     System.out.println("Evento creato con successo!");
                 } catch (IllegalArgumentException e) {
                     System.out.println("Errore: " + e.getMessage());

@@ -23,7 +23,7 @@ public class Evento {
         this.titolo = titolo;
         this.data = data;
         this.numeroPostiTotali = numeroPostiTotali;
-        this.numeroPostiPrenotati = 0; // Inizializzo il numero di posti prenotati a 0
+        this.numeroPostiPrenotati = 0; // Inizializzo
     }
 
     // ** GETTER **
@@ -63,7 +63,7 @@ public class Evento {
     }
 
     public void prenota(int numeroPostiDaPrenotare) throws Exception {
-        // Verifica se l'evento è già passato
+        // Verifica se l'evento è già passato (non serve ma la faccio uguale)
         if (data.isBefore(LocalDate.now())) {
             throw new Exception("Impossibile prenotare: l'evento è già passato.");
         }
